@@ -1,0 +1,207 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.base {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.container {
+  width: 912px;
+}
+.headerContainer {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  color: #505050;
+  margin: 10px 0;
+}
+.header {
+  font-size: 24px;
+}
+.sorter {
+  display: flex;
+  width: 100%;
+  background-color: #fefefe;
+  flex-direction: row;
+  height: 48px;
+  margin-bottom: 1px;
+}
+.sorterText {
+  color: #757575;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.sorterItemName {
+  display: flex;
+  align-self: start;
+  margin: 0 0 0 24px;
+  width: 20%;
+  align-items: center;
+}
+.sorterItemEmail {
+  display: flex;
+  align-self: start;
+  margin: 0 0 0 5px;
+  width: 35%;
+  align-items: center;
+}
+.sorterItemPhone {
+  display: flex;
+  align-self: start;
+  margin: 0 0 0 5px;
+  width: 20%;
+  align-items: center;
+}
+.sorterIcon {
+  margin-left: 15px;
+}
+.listItem {
+  display: flex;
+  list-style-type: none;
+  height: 72px;
+  align-items: center;
+  justify-content: center;
+  background-color: #fefefe;
+  margin-bottom: 1px;
+  flex-direction: column;
+}
+.listItemContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.listItemName {
+  display: flex;
+  align-self: start;
+  margin-left: 24px;
+  width: 20%;
+  color: #505050;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.listItemEmail {
+  display: flex;
+  align-self: start;
+  margin-left: 5px;
+  width: 35%;
+  color: #505050;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.listItemPhone {
+  display: flex;
+  align-self: start;
+  margin-left: 5px;
+  width: 20%;
+  color: #505050;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.listItemNameE {
+  display: flex;
+  align-self: start;
+  margin-left: 16px;
+  width: 20%;
+  color: #505050;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  height: 40px;
+  border: 2px lightgrey solid;
+  background-color: whitesmoke;
+  float: left;
+  box-sizing: border-box;
+  padding: 0 16px;
+}
+.listItemEmailE {
+  display: flex;
+  align-self: start;
+  margin-left: 16px;
+  width: 35%;
+  color: #505050;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  height: 40px;
+  border: 2px lightgrey solid;
+  background-color: whitesmoke;
+  float: left;
+  box-sizing: border-box;
+  padding: 0 16px;
+}
+.listItemPhoneE {
+  display: flex;
+  align-self: start;
+  margin-left: 16px;
+  width: 20%;
+  color: #505050;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  height: 40px;
+  border: 2px lightgrey solid;
+  background-color: whitesmoke;
+  float: left;
+  box-sizing: border-box;
+  padding: 0 16px;
+}
+.buttonGrp {
+  flex-direction: row;
+  display: flex;
+  width: 20%;
+  height: 40px;
+  align-self: center;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 16px;
+}
+.button {
+  justify-content: flex-end;
+  background: none;
+  border: none;
+  margin-left: 15px;
+}
+.buttonSave {
+  justify-content: center;
+  background-color: #07f;
+  height: 100%;
+  color: #ffffff;
+  margin: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0 20px;
+}
+.buttonCancel {
+  justify-content: center;
+  height: 100%;
+  margin: 5px;
+  border: none;
+  color: #07f;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0 20px;
+}
+.editWarning {
+  color: red;
+  font-size: 12;
+  margin: 5px;
+}
+
+*:focus {
+  outline: none;
+}
